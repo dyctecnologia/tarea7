@@ -1,0 +1,68 @@
+    * {
+        margin: 0;
+        font-family: 'Anton', sans-serif;
+        font-size: 30px;
+    }
+    /* ENCABEZADO */
+    
+    #menu-inicio {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px;
+        background-color: rgb(113, 209, 238);
+    }
+    
+    #menu-inicio p {
+        font-size: 2rem;
+        color: #ffffff;
+    }
+    /*CONTENIDO MULTIMEDIA*/
+    
+    #video {
+        display: flex;
+        justify-content: center;
+    }
+    /*CONTENIDO PRINCIPAL*/
+    
+    #conocenos {
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        padding: 2rem;
+    }
+    
+    #conocenos #parrafo2 {
+        justify-content: center;
+        padding: 2rem;
+    }
+    /*FORMULARIO*/
+    
+    #formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    #formulario h2 {
+        margin: 10px;
+        padding: 1rem;
+    }
+    
+    #formulario #contenido-formulario .campos {
+        margin: 10px;
+        padding: 1rem;
+    }
+    /*PIE DE PAGINA*/
+    
+    #pie-pagina {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px;
+        background-color: rgb(113, 209, 238);
+    }
+    
+    #pie-pagina p {
+        font-size: 2rem;
+        color: #ffffff;
+    }
